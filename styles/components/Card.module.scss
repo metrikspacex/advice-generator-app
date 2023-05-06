@@ -1,0 +1,102 @@
+@use "../abstracts/break.scss" as *;
+@use "../abstracts/theme.scss" as *;
+
+section.root {
+  @include background("Dark Grayish Blue");
+  border-radius: 10px;
+  box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+  position: relative;
+  width: min-content;
+
+  & > h1.id {
+    @include text("Neon Green");
+    font-family: var(--font);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 3.456px;
+    line-height: 15px;
+    margin: 40px 119px 0 120px;
+    text-align: center;
+    text-transform: uppercase;
+
+    @include break(desktop) {
+      font-size: 13px;
+      letter-spacing: 4.08571px;
+      line-height: 18px;
+      margin: 48px 207px 0 207px;
+      text-align: center;
+    }
+  }
+
+  & > h1.advice {
+    @include text("Light Cyan");
+    font-family: var(--font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: -0.257px;
+    line-height: 33px;
+    margin: 24px;
+    text-align: center;
+
+    @include break(desktop) {
+      font-size: 28px;
+      letter-spacing: -0.3px;
+      line-height: 38px;
+      margin: 24px 48px 40px 48px;
+    }
+  }
+
+  & > div.divider {
+    background-image: url("/pattern-divider-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 295px 16px;
+    height: 16px;
+    margin: 0 24px 64px 24px;
+    width: 295px;
+
+    @include break(desktop) {
+      background-image: url("/pattern-divider-desktop.svg");
+      background-repeat: no-repeat;
+      background-size: 444px 16px;
+      height: 16px;
+      margin: 0 48px 72px 48px;
+      width: 444px;
+    }
+  }
+
+  & > div.dice {
+    @include background("Neon Green");
+    @include text("Dark Blue");
+    align-items: center;
+    border-radius: 64px;
+    bottom: calc(-64px / 2);
+    display: flex;
+    height: 64px;
+    justify-content: center;
+    left: calc(50% - calc(64px / 2));
+    position: absolute;
+    width: 64px;
+
+    &:hover {
+      box-shadow: 0 0 40px #53ffaa;
+      cursor: pointer;
+    }
+
+    & > button {
+      background-image: url("/icon-dice.svg");
+      background-repeat: no-repeat;
+      background-size: 24px 24px;
+      border: 0;
+      height: 24px;
+      outline: 0;
+      width: 24px;
+
+      &:hover {
+        box-shadow: 0 0 40px #53ffaa;
+        cursor: pointer;
+      }
+    }
+  }
+}

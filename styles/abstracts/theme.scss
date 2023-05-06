@@ -1,0 +1,45 @@
+@mixin background($color) {
+  // Light Cyan
+  @if $color == "Light Cyan" {
+    background-color: #cee3e9;
+  }
+  // Neon Green
+  @if $color == "Neon Green" {
+    background-color: #53ffaa;
+  }
+  // Grayish Blue
+  @if $color == "Grayish Blue" {
+    background-color: #4f5d74;
+  }
+  // Dark Grayish Blue
+  @if $color == "Dark Grayish Blue" {
+    background-color: #313a48;
+  }
+  // Dark Blue
+  @if $color == "Dark Blue" {
+    background-color: #202733;
+  }
+}
+
+@mixin text($color) {
+  // Light Cyan
+  @if $color == "Light Cyan" {
+    color: #cee3e9;
+  }
+  // Neon Green
+  @if $color == "Neon Green" {
+    color: #53ffaa;
+  }
+  // Grayish Blue
+  @if $color == "Grayish Blue" {
+    color: #4f5d74;
+  }
+  // Dark Grayish Blue
+  @if $color == "Dark Grayish Blue" {
+    color: #313a48;
+  }
+  // Dark Blue
+  @if $color == "Dark Blue" {
+    color: #202733;
+  }
+}

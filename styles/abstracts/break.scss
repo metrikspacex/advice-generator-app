@@ -1,0 +1,11 @@
+@mixin break($device) {
+  @if $device == mobile {
+    @media (375px <= width < 1440px) {
+      @content;
+    }
+  } @else if $device == desktop {
+    @media (1440px <= width) {
+      @content;
+    }
+  }
+}

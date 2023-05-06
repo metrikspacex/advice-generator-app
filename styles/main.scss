@@ -1,0 +1,23 @@
+@use "./abstracts/theme.scss" as *;
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  @include background("Dark Blue");
+  @include text("Light Cyan");
+  font-family: var(--font);
+  font-size: 28px;
+  font-synthesis: none;
+  font-weight: 800;
+  line-height: 1.5;
+  text-rendering: optimizelegibility;
+}

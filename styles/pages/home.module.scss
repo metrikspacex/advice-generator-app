@@ -1,0 +1,9 @@
+@use "../abstracts/break.scss" as *;
+@use "../abstracts/theme.scss" as *;
+
+main.root {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
