@@ -29,13 +29,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./.screenshots/desktop.png)
-![](./.screenshots/mobile.png)
+![desktop](./.screenshots/desktop.png)
+![mobile](./.screenshots/mobile.png)
 
 ### Links
 
 - Solution URL: [solution](https://github.com/metrikspacex/advice-generator-app)
-- Live Site URL: [site](https://your-live-site-url.com)
+- Live Site URL: [site](https://advice-generator-app-eta-nine.vercel.app/)
 
 ## My process
 
