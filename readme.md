@@ -56,4 +56,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/metrikspacex)
+- Frontend Mentor - [@metrikspacex](https://www.frontendmentor.io/profile/metrikspacex)
